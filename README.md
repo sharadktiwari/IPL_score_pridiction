@@ -17,7 +17,7 @@ Must have Scikit-Learn installed
 # Instructions to run:
 1. First clone the project
 2. Open Jupyter and Run your 'Cricket_score_prediction' file.
-3. Then in anaconda prompt goto to the working directory and run command 'set FLASK_APP=ipl_score.py' then run 'set FLASK_DEBUG=1' noe finally run 'flask run'.
+3. Then in anaconda prompt goto the working directory and run command 'set FLASK_APP=ipl_score.py' then run 'set FLASK_DEBUG=1' noe finally run 'flask run'.
 4. Now fill all the required options and submit to get the predicted Score.
 
 # Contributors:
