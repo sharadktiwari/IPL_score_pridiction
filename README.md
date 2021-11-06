@@ -9,10 +9,7 @@ ipl.csv
    * You can use any regressor you want to use.
 
 # Pre-Requisits:
-Must have Python3 installed
-Must have Flask.
-Must have Pandas, Matplotlib, Seaborn
-Must have Scikit-Learn installed
+Must have Python3, Flask.Pandas, Matplotlib, Seaborn, Scikit-Learn
 
 # Instructions to run:
 1. First clone the project
