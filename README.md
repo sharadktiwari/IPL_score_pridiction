@@ -2,20 +2,27 @@
 I worked on a web app using Flask. Give Inputs as (batting_team, bowling_team, overs, runs, wickets, runs_in_prev_5_overs, wickets_in_prev_5_overs) and it will predict the approximate score the batting team may score within 20 overs. 
 
 # Dataset:
-ipl.csv
+IPL.csv.
+* 1 - Time Series Columns, 2 - Categorical Columns and remaining Numerical Columns handled during EDA. Created 23 Feature Columns from 15 Features.
 
-# Classifier:
-1. Ridge Regressor (With Hyperparameter tuning)
-   * You can use any regressor you want to use.
+To Achieve Best Accuracy and To Reduce Overfitting Problem, I used Linear Ridge Regressor (With Hyperparameter tuning - GridSearchCV)
 
-# Pre-Requisits:
-Must have Python3, Flask.Pandas, Matplotlib, Seaborn, Scikit-Learn
+# ABOUT :
+Took IPL Data & performed Data Wrangling. During EDA handling Categorical data is major task. Trained Linear Ridge Regressor model. After Prediction calculated Errors & Model Score. To Reduce Errors & to boost model score used GridSearchCV for Hyper Parameter Tuning. 
+   
+# Parameters Obtained After Hyperparameter Tuning - 
+ {'alpha': 40}
+ 
+# Score Obtained After Hyperparameter Tuning - 
+-328.42
+  
+# Values After Hyperparameter Tuning
+   MAE :-  12.12,
+   MSE :-  251.03,
+   RMSE :-  15.84
 
-# Instructions to run:
-1. First clone the project
-2. Open Jupyter and Run your 'Cricket_score_prediction' file.
-3. Then in anaconda prompt goto the working directory and run command 'set FLASK_APP=ipl_score.py' then run 'set FLASK_DEBUG=1' noe finally run 'flask run'.
-4. Now fill all the required options and submit to get the predicted Score.
+# Achieved    r2_score -   0.75
+
 
 # Contributors:
 > Sharad Kumar Tiwari
